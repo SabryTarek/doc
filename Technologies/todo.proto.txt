@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package todo;
+
+message task {
+   string text  = 1;
+   bool done  = 2;
+}
+
+
+
+ => protoc complier
+ protoc --go_out= . todo.proto

@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+    <h4>Sequence containers</h4>
+    <table class="boxed containers">
+        <tbody>
+            <tr>
+                <td colspan="2">Headers</td>
+                <th class="cpp11">
+                    <tt>
+                        <a href="/&lt;array&gt;">&lt;array&gt;</a>
+                    </tt>
+                </th>
+                <th class="cpp98">
+                    <tt>
+                        <a href="/&lt;vector&gt;">&lt;vector&gt;</a>
+                    </tt>
+                </th>
+                <th class="cpp98">
+                    <tt>
+                        <a href="/&lt;deque&gt;">&lt;deque&gt;</a>
+                    </tt>
+                </th>
+                <th class="cpp11">
+                    <tt>
+                        <a href="/&lt;forward_list&gt;">&lt;forward_list&gt;</a>
+                    </tt>
+                </th>
+                <th class="cpp98">
+                    <tt>
+                        <a href="/&lt;list&gt;">&lt;list&gt;</a>
+                    </tt>
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2">Members</td>
+                <th class="cpp11">
+                    <a href="/array">array</a>
+                </th>
+                <th class="cpp98">
+                    <a href="/vector">vector</a>
+                </th>
+                <th class="cpp98">
+                    <a href="/deque">deque</a>
+                </th>
+                <th class="cpp11">
+                    <a href="/forward_list">forward_list</a>
+                </th>
+                <th class="cpp98">
+                    <a href="/list">list</a>
+                </th>
+            </tr>
+            <tr>
+                <td rowspan="3"> </td>
+                <td>
+                    <i>constructor</i>
+                </td>
+                <td class="cpp11">
+                    <i>implicit</i>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::vector">vector</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::deque">deque</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::forward_list">forward_list</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::list">list</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <i>destructor</i>
+                </td>
+                <td class="cpp11">
+                    <i>implicit</i>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::~vector">~vector</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::~deque">~deque</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::~forward_list">~forward_list</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::~list">~list</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>operator=</tt>
+                </td>
+                <td class="cpp11">
+                    <i>implicit</i>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::operator=">operator=</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::operator=">operator=</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::operator=">operator=</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::operator=">operator=</a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">iterators</td>
+                <td>
+                    <tt>begin</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::begin">begin</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::begin">begin</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::begin">begin</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::begin">begin</a>
+                    <br>
+                    <a href="/forward_list::before_begin">before_begin</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::begin">begin</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>end</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::end">end</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::end">end</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::end">end</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::end">end</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::end">end</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>rbegin</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::rbegin">rbegin</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::rbegin">rbegin</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::rbegin">rbegin</a>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/list::rbegin">rbegin</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>rend</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::rend">rend</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::rend">rend</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::rend">rend</a>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/list::rend">rend</a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">const iterators</td>
+                <td>
+                    <tt>cbegin</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::cbegin">cbegin</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/vector::cbegin">cbegin</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/deque::cbegin">cbegin</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::cbegin">cbegin</a>
+                    <br>
+                    <a href="/forward_list::cbefore_begin">cbefore_begin</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/list::cbegin">cbegin</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>cend</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::cend">cend</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/vector::cend">cend</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/deque::cend">cend</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::cend">cend</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/list::cend">cend</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>crbegin</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::crbegin">crbegin</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/vector::crbegin">crbegin</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/deque::crbegin">crbegin</a>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/list::crbegin">crbegin</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>crend</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::crend">crend</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/vector::crend">crend</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/deque::crend">crend</a>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/list::crend">crend</a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="7">capacity</td>
+                <td>
+                    <tt>size</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::size">size</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::size">size</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::size">size</a>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/list::size">size</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>max_size</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::max_size">max_size</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::max_size">max_size</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::max_size">max_size</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::max_size">max_size</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::max_size">max_size</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>empty</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::empty">empty</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::empty">empty</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::empty">empty</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::empty">empty</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::empty">empty</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>resize</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::resize">resize</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::resize">resize</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::resize">resize</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::resize">resize</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>shrink_to_fit</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/vector::shrink_to_fit">shrink_to_fit</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/deque::shrink_to_fit">shrink_to_fit</a>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>capacity</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::capacity">capacity</a>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>reserve</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::reserve">reserve</a>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+            </tr>
+            <tr>
+                <td rowspan="4">element access</td>
+                <td>
+                    <tt>front</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::front">front</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::front">front</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::front">front</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::front">front</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::front">front</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>back</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::back">back</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::back">back</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::back">back</a>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/list::back">back</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>operator[]</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::operator[]">operator[]</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::operator[]">operator[]</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::operator[]">operator[]</a>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>at</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::at">at</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::at">at</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::at">at</a>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+            </tr>
+            <tr>
+                <td rowspan="12">modifiers</td>
+                <td>
+                    <tt>assign</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::assign">assign</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::assign">assign</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::assign">assign</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::assign">assign</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>emplace</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/vector::emplace">emplace</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/deque::emplace">emplace</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::emplace_after">emplace_after</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/list::emplace">emplace</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>insert</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::insert">insert</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::insert">insert</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::insert_after">insert_after</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::insert">insert</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>erase</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::erase">erase</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::erase">erase</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::erase_after">erase_after</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::erase">erase</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>emplace_back</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/vector::emplace_back">emplace_back</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/deque::emplace_back">emplace_back</a>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/list::emplace_back">emplace_back</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>push_back</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::push_back">push_back</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::push_back">push_back</a>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/list::push_back">push_back</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>pop_back</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::pop_back">pop_back</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::pop_back">pop_back</a>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/list::pop_back">pop_back</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>emplace_front</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/deque::emplace_front">emplace_front</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::emplace_front">emplace_front</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/list::emplace_front">emplace_front</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>push_front</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/deque::push_front">push_front</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::push_front">push_front</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::push_front">push_front</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>pop_front</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/deque::pop_front">pop_front</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::pop_front">pop_front</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::pop_front">pop_front</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>clear</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::clear">clear</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::clear">clear</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::clear">clear</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::clear">clear</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>swap</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::swap">swap</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/vector::swap">swap</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::swap">swap</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::swap">swap</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::swap">swap</a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="7">list operations</td>
+                <td>
+                    <tt>splice</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/forward_list::splice_after">splice_after</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::splice">splice</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>remove</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/forward_list::remove">remove</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::remove">remove</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>remove_if</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/forward_list::remove_if">remove_if</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::remove_if">remove_if</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>unique</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/forward_list::unique">unique</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::unique">unique</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>merge</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/forward_list::merge">merge</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::merge">merge</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>sort</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/forward_list::sort">sort</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::sort">sort</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>reverse</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="cpp11">
+                    <a href="/forward_list::reverse">reverse</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::reverse">reverse</a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">observers</td>
+                <td>
+                    <tt>get_allocator</tt>
+                </td>
+                <td class="none"> </td>
+                <td class="cpp98">
+                    <a href="/vector::get_allocator">get_allocator</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/deque::get_allocator">get_allocator</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/forward_list::get_allocator">get_allocator</a>
+                </td>
+                <td class="cpp98">
+                    <a href="/list::get_allocator">get_allocator</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <tt>data</tt>
+                </td>
+                <td class="cpp11">
+                    <a href="/array::data">data</a>
+                </td>
+                <td class="cpp11">
+                    <a href="/vector::data">data</a>
+                </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+                <td class="none"> </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

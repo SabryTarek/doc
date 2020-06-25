@@ -1,0 +1,143 @@
+- admin -> to crud at models
+- stuff group
+
+
+- controller take data from model only
+- form give data to model only
+
+- python2 ->2020
+- python3 2008 ->
+
+python 3.4.3 most stable
+
+
+
+- every virtual env install python pip easyinstall setuptool
+- source bin/activate
+
+
+django | python manage.py runserver
+anconda : download automaticly more than 300 compatable liberary in data science filed 
+
+
+
+dash/zeal
+=========
+- offline
+- official docs
+- mark highlighters
+- auto updates for last version of downloaded docs
+- integrated with all code editors like vscode atom -> move you automaticly to 
+
+kivy
+joxi
+chill tab full page screen cupture
+django packages site
+meta class
+template filters
+
+
+ -kebab-case
+- snake_case
+
+- soft tab
+- hard tab
+
+how to design test case
+
+run in memory
+
+acceptance test = functional = intefration
+
+unit test have no effect at your system (file system, nerwork, database, or ather external resources
+
+
+pass keyword in python {function, class}) return None
+
+
+unit test framework like Jest
+test case should have one reason to fail
+
+
+PyDev
+
+
+
+
+- WireMock
+- MockServer
+
+python3 -m unittest 
+	- v = verbose
+	- q <testcase_name> = run one test case
+	-
+@unittest.skip("WIP") work in progress
+
+
+convintion:
+test_file_name: test_<file_name>
+test method -> test
+_arrange setUp name
+_act
+_assert
+
+
+
+
+xunit family same paattern(convintions) for defining test cases
+unittest:
+- belongs to xunit family
+- in standerd python distribution(SPD)
+
+
+pythonic code
+
+(Python Standerd Libraries) standerd python distribution like STL in c++
+
+
+edge cases
+
+
+
+Hardware Simulator
+JDK
+
+// And.vdl
+// And.out
+// And.tst
+
+
+
+
+VHDL
+=====
+CHIP And{
+	IN a, b, c;
+	OUT oyt;
+
+	PARTS:
+	// Write your code here
+}
+
+
+convert truth table to logic gate , like ( logic Friday program )
+
+
+
+- assmbler: convert assembly to machine code depend on your precosser arch and your OS
+
+another great reason why learning assembly on an arm chip is a good idea is because the are in arm stands for reduced instruction set computing and that means that there is a limited number of instructions so I thought it would be great to work with a low cost computer like this and I thought this would be the cheapest and easiest way to dive into the world of assembler
+
+assemblyfile extention: .s -> project.s
+
+comments
+========
+
+- @ single comment
+- /* multi line comment */
+
+as file.s -o file.o
+
+
+w b
+0 $

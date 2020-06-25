@@ -1,0 +1,4 @@
+﻿incorporates يدمج
+robust قوي
+boost تعزيز
+porposal اقتراح

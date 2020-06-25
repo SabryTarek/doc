@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "/run/media/sabry/01D3BC037957B030/Docmentation"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"fstream": "cpp"
+		}
+	}
+}
