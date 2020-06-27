@@ -1,8 +1,14 @@
+---
+modified: 2020-06-27T23:03:15+02:00
+---
+
 dbus
 ======
 message bus akin to:
 - DCOP (KDE 3)
 - Bonobo (GNOME 2)
+
+X11dbus
 
 allows communication between multiple computer programs (that is, processes) concurrently running on the same machine.
  freedesktop.org project
