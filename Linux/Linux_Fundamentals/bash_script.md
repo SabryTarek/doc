@@ -1,3 +1,7 @@
+---
+modified: 2020-06-27T23:57:37+02:00
+---
+
 Bash Script
 ============
 
@@ -1551,7 +1555,8 @@ Shell Scripting
 - Bash => [B]ourne [a]gain [sh]ell
 - sh   => Bourne [sh]ell
 - dash
-- 
+- ash
+-  
 
 
 playlist=https://web.microsoftstream.com/channel/41c96d80-a07d-4e58-a021-7de8a55f81b1 && youtube-dl --cookies /media/cookies.txt $playlist
@@ -1573,3 +1578,13 @@ $playlist
 
 
 pages
+
+
+DRY Don't Repeat Yourself
+DRY Code
+DRY Terminal Commands
+
+mkdir -p $HOME/bin
+export PATH=$PATH:$HOME/bin
+
+Make bash excute any code
