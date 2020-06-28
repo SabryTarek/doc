@@ -1,3 +1,7 @@
+---
+modified: 2020-06-28T16:32:23+02:00
+---
+
 Search
 =======
 
@@ -50,7 +54,6 @@ find /var/ -name log -exec cp -r {} /home/sabry/work \;
 ls -i -> inode number
 
 
-id
 
 grep -> lines -i -v -n -R l
 
