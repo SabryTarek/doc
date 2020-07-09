@@ -235,10 +235,6 @@ The tools supplied with this package are:
 - uniq - remove duplicate lines from a sorted file
 - wc - print the number of bytes, words, and lines in files
 ----------------------------------------------------------------------------------------------------------------
-
-
-
-
 Package: moreutils (0.62-1)
 additional Unix utilities
 This is a growing collection of the Unix tools that nobody thought to write long ago, when Unix was young.
@@ -327,9 +323,6 @@ So far, it includes the following utilities:
 
 built-in commands
 - see bash(1)
-
-
-
 ----------------------------------------------------------------------------------------------------------------
 > GNU Diffutils:
 • Invoking cmp:	  	    Compare two files byte by byte.
@@ -338,6 +331,162 @@ built-in commands
 • Invoking patch:	  	Apply a diff file to an original.
 • Invoking sdiff:	  	Side-by-side merge of file differences.
 
+----------------------------------------------------------------------------------------------------------------
+> busybox:
+λ busybox64 --list
+[
+[[
+ar
+arch
+ash
+awk
+base64
+basename
+bash
+bunzip2
+busybox
+bzcat
+bzip2
+cal
+cat
+chmod
+cksum
+clear
+cmp
+comm
+cp
+cpio
+cut
+date
+dc
+dd
+df
+diff
+dirname
+dos2unix
+dpkg
+dpkg-deb
+du
+echo
+ed
+egrep
+env
+expand
+expr
+factor
+false
+fgrep
+find
+fold
+fsync
+ftpget
+ftpput
+getopt
+grep
+groups
+gunzip
+gzip
+hd
+head
+hexdump
+httpd
+iconv
+id
+inotifyd
+ipcalc
+kill
+killall
+less
+link
+ln
+logname
+ls
+lzcat
+lzma
+lzop
+lzopcat
+man
+md5sum
+mkdir
+mktemp
+mv
+nc
+nl
+od
+paste
+patch
+pgrep
+pidof
+pipe_progress
+pkill
+printenv
+printf
+ps
+pwd
+readlink
+realpath
+reset
+rev
+rm
+rmdir
+rpm
+rpm2cpio
+sed
+seq
+sh
+sha1sum
+sha256sum
+sha3sum
+sha512sum
+shred
+shuf
+sleep
+sort
+split
+ssl_client
+stat
+strings
+su
+sum
+tac
+tail
+tar
+tee
+test
+time
+timeout
+touch
+tr
+true
+truncate
+ts
+ttysize
+uname
+uncompress
+unexpand
+uniq
+unix2dos
+unlink
+unlzma
+unlzop
+unxz
+unzip
+usleep
+uudecode
+uuencode
+vi
+watch
+wc
+wget
+which
+whoami
+whois
+xargs
+xxd
+xz
+xzcat
+yes
+zcat
 ----------------------------------------------------------------------------------------------------------------
 
 # /etc/motd

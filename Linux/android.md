@@ -80,7 +80,8 @@ We are going to focus on #2.  On most desktop top computers you can boot and ins
 
 
 
-
+----------------------------------------------------------------------------------------------
+/storage/emulated/0 === /sdcard0 === /sdcard => That's the top directory of the user area of the internal storage
 
 
 

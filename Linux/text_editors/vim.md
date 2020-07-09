@@ -1,20 +1,21 @@
 Vim -> created by: Bram Moolenaar
 ====
-- vi -> visual interface -> 
-- vim -> visual interface modified ->
+- vi -> [vi]sual interface || [vi]sual editor
+- vim -> [v]isual [i]nterface [m]odified || [vi]sual editor [m]odified || [v]isual editor [im]proved || enhanced vi || programer editor
 - Gvim -> GUI vim
 - vim-gtk
 - neovim
 
 
-sd -> vi -> vim -> neovim
+ed (standard unix text editor) -> sed/awk -> vi -> vim -> neovim
 - Emacs
 - nano
 - pico
+- 
 
 # the author of the game of throne books a lot of people don't realize he actually wrote the entire book series in vim
 --------------------------------------------------------------------------------------------------------------------------------------------------
-> insert mode (i - a - o - s):
+> insert mode (i - a - o - s - insert keyboard button):
 
 # the only difference is where the characters are inserted.
   1. Type  o  to open a line BELOW the cursor and start Insert mode.

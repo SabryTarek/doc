@@ -96,9 +96,8 @@ ls -la `pwd`
 
 - ping -c 4 google.com
 ----------------------------------------------------
-- grep
+- grep -> ripgrep
 - egrep
-- ripgrep
 - xgrep
 ----------------------------------------------------
 - trash-cli
@@ -113,11 +112,11 @@ network:
 
 ----------------------------------------------------
 > processes:
-- ps -> top -> htop -> glance -> bashtop
-- kill -> pkill -> xkill ->
+- ps aux -> top -> htop -> glance -> bashtop & gotop
+- kill -> pkill -> xkill ->killall
 - ls -> exa-> lsd
 - cat -> bat
--  
+- du -> dust -> ncdu
 ----------------------------------------------------
 - alsamixer
 - pulseaudio

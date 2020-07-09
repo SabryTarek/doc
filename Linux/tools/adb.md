@@ -113,6 +113,11 @@ Android SDK components:
 
 
 
+1-adb shell
+
+2-sm-list-disks           مش شرط  تسخدمها 2
+3-sm partition disk:179,128 mixed 10
+النسبه البتتكتب هلي البتفضل شغاله كارت ميموري والباقي بيتنقل عليه الابلكيشن
 
 
 

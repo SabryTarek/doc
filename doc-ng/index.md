@@ -213,6 +213,8 @@ Limux Commands Categories:
     - join
 
     - top
+    - htop
+
     - head
     - tail
     
@@ -225,11 +227,12 @@ Limux Commands Categories:
     - awk
     - sed
     - tr
+
 > Text Editors
-- VI/VIM/NeoVIM
-- Emacs
-    - Spacemacs
-- VScode
+    - VI/VIM/NeoVIM
+    - Emacs
+        - Spacemacs
+    - VScode
 > Help
 > Metadata
 - type

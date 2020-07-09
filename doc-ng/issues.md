@@ -4,26 +4,26 @@ Issues
 -----------------------------------------------------------------------------
 [WIFI]
 [] create open wifi point to sniffing data
-[] allow spacific ports to work at network
+[x] allow spacific ports to work at network => use firewall like iptable or pfsenece
 [] use wifi direct to transfare data between mobile and pc
 -----------------------------------------------------------------------------
 [telegram]
-[] get telegram links only :HINT=> telegram API
+[x] get telegram links only :HINT=> telegram API => export all telegram data for private groups in JSON format and extract links by jp
 -----------------------------------------------------------------------------
 [Android.md](./)
 - [ ] where Google Play Store save downloaded apk files ?
-- [ ] does it support another extension instead of .apk ?
+- [x] does it support another extension instead of .apk ? => yup, .xapk = .apk + some other files
 -----------------------------------------------------------------------------
 [youtube]
 - [] download video from youtube
         - [] with spasific quality & encoding
 
 - [ ] where youtube save downloaded vidoes ?
-- [] get youtube comments only :HINT=> youtube API
+- [x] get youtube comments only :HINT=> youtube API => by cli tool thanks to gotbletu 
 
 -----------------------------------------------------------------------------
 [download]
-- [] which is fastest in download
+- [] which is fastest in download =partial solved=> fts is fasrew than http
     - http
         - https
     - ftp
