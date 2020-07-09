@@ -1,3 +1,7 @@
+---
+modified: 2020-06-27T23:37:32+02:00
+---
+
 [Alpine Linux](https://alpinelinux.org)
 =======================================
 
@@ -15,6 +19,14 @@ Small. Simple. Secure.
 Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 
 
+
+apk is the Alpine Package Keeper - the distribution’s package manager. It is used to manage the packages (software and otherwise) of the system. It is the primary method for installing additional software, and is available in the apk-tools package.
+
+Hierarchy
+
+Mirror -> Repository -> Package
+
+Mirror/Release/Repository -> Package
 
 apk add man
 apk add <package_name>-doc
@@ -58,4 +70,10 @@ setup-xorg-base xfce4 xfce4-terminal lightdm-gtk-greeter xfce4-screensaver dbus-
 
 Xorg -configure
 cp /root/xorg.conf.new /etc/X11/xorg.conf
------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
+- how to make your own [local | remote] repo?
+- protocols:
+- http
+- https
+- ftp
+- local
