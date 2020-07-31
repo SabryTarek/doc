@@ -1,3 +1,5 @@
+# virtualizations
+
 Hypervisor -> virtualbox, vmware, kvm,
 
 First of all, the most basic difference between OpenVZ and KVM is that OpenVZ can ONLY host Linux operating systems, while KVM is more flexible and can host Linux, Windows, macOS and custom OS options

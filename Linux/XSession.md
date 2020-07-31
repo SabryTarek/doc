@@ -82,40 +82,6 @@ fbgs pdf
 
 
 
-sxiv
-=====
-| shortcut |  |
-|---|---------|
-| + | zoom in |
-| - | zoom out |
-| = | 100% zoom |
-| f | fullscreen |
-<
-
-|
-_ sxiv -a <>.gif || sxiv <>.gif -> ctrl spacebar
-
-
-
-thumbnails mode -> sxiv -t k*.jpg
-- enter
-- n | next 
-- p | previous
-
-
-
-
-****
-
--t ->thumbnail mode
--f fullscreen
--a autoplay
-
-
--i input
--o output
-
--m multi select images
 
 
 
@@ -152,9 +118,33 @@ Display Protocals:-
 - X
 
 
-
+## x11 utilities
+- xterm
+- xrandr
+- xvkbd -> x virtual keyboard
+    - onboard
+- xzoom
 - xclock
+- glxgears
+- xeyes
+- xfishtank
+- xkill
+- xload -update 1
+- xscreensaver
+- xscreensaver-demo
+- xcalc
+    - galculator -> GTK Calculator || gnome caculator || kde kalc
+- xedit
 
+- xprop
+- xwininfo
+
+- xset
+    - xset s off -> screan saver off
+    - xset -dpms -> 
+- wmctrl
+- xdotool
+    - xdo
 
 
 
@@ -176,4 +166,3 @@ X = Xinit
 startx
 
 
-glxgears

@@ -9,6 +9,15 @@ modified: 2020-06-27T23:37:32+02:00
 subdomains:
 - [docs - handbook](https://docs.alpinelinux.org)
 - [wiki](https://wiki.alpinelinux.org)
+- [miirirs](https://mirrors.alpinelinux.org/) 
+	- [remote repo](http://dl-cdn.alpinelinux.org/)
+- [pkg](https://pkgs.alpinelinux.org/)
+
+pkg
+pkg-doc
+pkg-devel === pkg-dev
+libpkg
+
 
 package manager
 libC
@@ -76,4 +85,5 @@ cp /root/xorg.conf.new /etc/X11/xorg.conf
 - http
 - https
 - ftp
+- rsync
 - local

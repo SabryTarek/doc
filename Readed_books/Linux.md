@@ -5,4 +5,9 @@ title: Linux
 ---
 
 ## Best Linux Books
--
+- The Linux Command Line
+- How Linux Works
+- The Linux Programming Interface
+- Linux Pocket Guide: Essential Commands
+
+

@@ -52,7 +52,7 @@ default-cache-ttl 10
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-https://gpgtools.org
+mac: https://gpgtools.org
 
 
 # Create a new private key
