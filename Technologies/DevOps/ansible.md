@@ -1,5 +1,5 @@
 Ansible
-=========
+===
 What makes it different from other management software is that Ansible uses (potentially existing) SSH infrastructure, while others (Chef, Puppet, ...) need a specific PKI infrastructure to be set up
 - agentless
 - serverless [doemonless]
